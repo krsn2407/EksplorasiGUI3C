@@ -14,8 +14,8 @@ public class Gui extends JFrame {
         setLayout(new BorderLayout());
 
         // Intermediate container
-        JPanel panelAtas = new JPanel(new GridLayout(2, 2, 5, 5)); // 4. Layout 2: GridLayout
-        JPanel panelBawah = new JPanel(new FlowLayout());          // 4. Layout 3: FlowLayout
+        JPanel panelAtas = new JPanel(new GridLayout(2, 2, 5, 5)); // GridLayout
+        JPanel panelBawah = new JPanel(new FlowLayout());          // FlowLayout
 
         // Atomic component
         JTextField tfNama = new JTextField();
